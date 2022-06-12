@@ -1,7 +1,9 @@
+<h1 align="center">Knowliz</h1>
+
 A Word Guessing Game, Where you have to Guess a Word given 4 Hints.
 This program can Be run on a Shell or Command Prompt.
 
-# Features
+## Features
 
 <h4>The program works by
 asking you to type out a word

@@ -1,4 +1,5 @@
 """
+Name: Knowliz
 Description: A Word Guessing Game, Where you have to Guess a Word given 4 Hints.
 Author: DaEliteCoder1
 Language: Python
@@ -15,12 +16,12 @@ from colorama import Fore, Back
 import requests
 colorama.init(autoreset=True)
 
-word_site = "https://www.mit.edu/~ecprice/wordlist.100000"
+word_site = "https://www.mit.edu/~ecprice/wordlist.10000"
 response = requests.get(word_site)
-words = response.text.splitlines()
+words = [word for word in response.text.splitlines() if len(word) > 2]
 word = random.choice(words)
 playing = True
-duplicates = [(k, v) for k,v in collections.Counter(list(word)).items() if v>1]
+duplicates = [(k, v) for k,v in collections.Counter(list(word)).items() if v > 1]
 attempt = 1
 word_num = 1
 wrongs = 0
@@ -80,7 +81,7 @@ while playing:
 			attempt = 0
 			duplicates = [(k, v) for k,v in collections.Counter(list(word)).items() if v>1]
 			time.sleep(2)
-			#clear()
+			clear()
 		elif guess == 'finish_game':
 			clear()
 			try:
@@ -110,10 +111,6 @@ while playing:
 			except ZeroDivisionError:
 				clear()
 				print(Fore.RED + "Too early to see results and end game.")
-					
-			
-			
-			
 	except KeyboardInterrupt:
 		clear()
 		print(Fore.MAGENTA + "[Game Closed] 👍")
