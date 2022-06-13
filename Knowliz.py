@@ -50,8 +50,8 @@ while playing:
 		else:
 			duplicate_hint = "There are no duplicate characters."
 		print(Fore.GREEN + f"Hint [2]: {duplicate_hint}\n")
-		print(Fore.GREEN + f"Hint [3]: The Word starts with an {word[0]}\n")
-		print(Fore.GREEN + f"Hint [4]: The Word ends with an {word[-1]}\n")
+		print(Fore.GREEN + f"Hint [3]: The Word starts with an {word[0]}.\n")
+		print(Fore.GREEN + f"Hint [4]: The Word ends with an {word[-1]}.\n")
 		print(Fore.YELLOW + f"What is the Word ?\n")
 		guess = input(f"Attempt {attempt}: ")
 		if guess != word and guess != 'show_awnser' and guess != 'finish_game':
@@ -105,7 +105,7 @@ while playing:
 					print(Fore.MAGENTA + Back.WHITE + f"Score: {corrects} / {corrects + wrongs}")
 					print(Fore.MAGENTA + Back.WHITE + f"All Hail Supreme Nerd....I am left speechless by your {round(score, 2)}% correct 🤴!")
 				if asked_for_awnser > 0:
-					print(Fore.CYAN + f"Although I am have seen your score, you have not known a word for" + Fore.RED + f" {asked_for_awnser} times.")
+					print(Fore.CYAN + f"Although I have seen your score, you have not known a word for" + Fore.RED + f" {asked_for_awnser} times.")
 					print("🤦‍♂️")
 				playing = False
 			except ZeroDivisionError:
