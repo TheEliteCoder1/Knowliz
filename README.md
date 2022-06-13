@@ -89,6 +89,16 @@ with the Pip package manager
       To run the program we will need to go inside that folder:
 
 	  `cd Knowliz`
+	  
+	4. Know using the Pip package manager which we installed earlier, we are going
+	to install the Dependencies required to run this program. Once you've installed then,
+	you can just run the game without doing this step again. Luckily, all of the Dependencies
+	are listed in the `requirements.txt` file. Now, we can simply do this with this command:
+		1. Windows command:
+		`pip install -r requirements.txt`
+		
+		2. Linux/MacOS command:
+		`pip3 install -r requirements.txt`
 
 	4. Now, every time you wanna run this program, you can just open up
 	   this folder in you filesystem explorer and click on the file named `Knowliz.py`,
