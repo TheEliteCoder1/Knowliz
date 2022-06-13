@@ -70,9 +70,11 @@ When hitting enter, the command will show your results and end the game.</h4>
 For now, you can run the program by doing the following things:</h4>
 
 1. Make sure that you have the following installed:
-   1. The Python programming language
-with the Pip package manager
+	1. The Python programming language
+	with the Pip package manager 
+	https://www.python.org/
 	2. Git
+	https://git-scm.com/downloads
 
 3. Clone this Repository by typing the following in
    your system's terminal or shell:
