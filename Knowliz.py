@@ -33,7 +33,6 @@ elif sys.platform == 'win32':
 	clear = lambda: os.system('cls')
 while playing:
 	try:
-		print(word)
 		print(Fore.CYAN + f"Word #{word_num}\n")
 		print(Fore.GREEN + f"Hint [1]: The Word is {len(word)} characters long.\n")
 		if len(duplicates) > 0:

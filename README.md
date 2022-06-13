@@ -1,6 +1,6 @@
 <h1 align="center">Knowliz</h1>
 
-<img align="center" src="KnowlizLogo.ico">
+<p align="center"><img src="KnowlizLogo.ico"></p>
 
 A Word Guessing Game, 
 Where you have to Guess a Word given 4 Hints. 
