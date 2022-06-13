@@ -72,9 +72,9 @@ For now, you can run the program by doing the following things:</h4>
 1. Make sure that you have the following installed:
 	1. The Python programming language
 	with the Pip package manager 
-	<a href'https://www.python.org/' target='_blank'></a>
+	https://www.python.org/
 	2. Git
-	<a href='https://git-scm.com/downloads' target='_blank'></a>
+	https://git-scm.com/downloads
 
 3. Clone this Repository by typing the following in
    your system's terminal or shell:
