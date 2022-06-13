@@ -35,8 +35,7 @@ type in the following:</h4>
 ```
 show_awnser
 ```
-<h4>If you type in the text
-between the text as shown above correctly, it will show you the awnser.
+<h4>If you type in the text as shown above correctly, it will show you the awnser.
 The awnsers which you choose to show are recorded as the amount of awnsers you couldn't guess.</h4>
 
 <img src="demo4.png">
